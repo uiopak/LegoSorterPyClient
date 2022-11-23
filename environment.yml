@@ -1,0 +1,13 @@
+name: LegoSorterPyClient
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - conda-forge::signalrcore
+  - conda-forge::grpcio
+  - conda-forge::protobuf=3.19.4
+  - pip
+  - pip:
+    - opencv-python
+    - grpcio-tools==1.48.2
